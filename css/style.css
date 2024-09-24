@@ -62,13 +62,16 @@ p.price {
   position: absolute;
   left: 0;
   bottom: 80px;
+}
+
+.info {
   font-size: 10px;
   padding: 2px 6px;
+  color: white;
 }
 
 .discount {
   background-color: red;
-  color: white;
 }
 
 .sust {
