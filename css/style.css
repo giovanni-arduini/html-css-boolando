@@ -56,46 +56,62 @@ ol {
 }
 
 h1 {
-  font-size: 17px;
+  font-size: 14px;
   text-transform: uppercase;
-}
-
-p.brand {
-  font-size: 14px;
-}
-
-p.price {
-  font-size: 14px;
 }
 
 .fav-icon {
   position: absolute;
-  top: 15px;
+  top: 10px;
   right: 0;
   font-size: 20px;
   background-color: white;
   text-align: center;
-  padding: 4px 8px;
+  padding: 5px 10px;
 }
 
 .add-info {
   position: absolute;
   left: 0;
-  bottom: 80px;
+  bottom: 90px;
 }
 
 .info {
-  font-size: 10px;
-  padding: 2px 6px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px 10px;
   color: white;
 }
 
 .discount {
   background-color: red;
+  margin-right: 3px;
 }
 
 .sust {
   background-color: green;
+}
+
+.brand {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.prod-name {
+  font-weight: 500;
+}
+
+.price {
+  font-size: 14px;
+  color: red;
+  font-weight: 500;
+}
+
+.price-disc {
+  margin-left: 5px;
+  text-decoration: line-through;
+  color: black;
+  font-weight: 300;
 }
 
 /* DEBUG RULES */
