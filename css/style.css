@@ -24,6 +24,7 @@ ol {
 
 .row {
   display: flex;
+  gap: 10px;
 }
 
 .col-33 {
@@ -34,16 +35,33 @@ ol {
   position: relative;
 }
 
+h1 {
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+p.brand {
+  font-size: 14px;
+}
+
+p.price {
+  font-size: 14px;
+}
+
 .fav-icon {
   position: absolute;
   top: 15px;
   right: 0;
+  font-size: 20px;
+  background-color: white;
+  text-align: center;
+  padding: 4px 8px;
 }
 
 .add-info {
   position: absolute;
   left: 0;
-  bottom: 50px;
+  bottom: 80px;
 }
 
 /* DEBUG RULES */
