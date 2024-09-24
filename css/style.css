@@ -45,3 +45,15 @@ ol {
   background-color: rgb(0, 255, 68);
   border: 2px solid black;
 }
+
+.debug .prod-pic {
+  background-color: cadetblue;
+  border: 2px dotted purple;
+  min-height: 300px;
+}
+
+.debug .prod-info {
+  background-color: cornflowerblue;
+  border: 2px dotted rgb(128, 32, 0);
+  min-height: 30px;
+}
