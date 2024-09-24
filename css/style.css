@@ -14,3 +14,33 @@ ul,
 ol {
   list-style: none;
 }
+
+/* LAYOUT RULES */
+
+.container {
+  max-width: 900px;
+}
+
+.row {
+  display: flex;
+}
+
+.col-33 {
+  width: calc(100% / 3);
+}
+
+/* DEBUG RULES */
+
+.debug .container {
+  background-color: aquamarine;
+}
+
+.debug .row {
+  min-height: 300px;
+  border: 2px solid red;
+}
+
+.debug .col {
+  background-color: rgb(0, 255, 68);
+  border: 2px solid black;
+}
