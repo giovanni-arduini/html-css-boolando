@@ -30,6 +30,22 @@ ol {
   width: calc(100% / 3);
 }
 
+.card {
+  position: relative;
+}
+
+.fav-icon {
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+
+.add-info {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+}
+
 /* DEBUG RULES */
 
 .debug .container {
