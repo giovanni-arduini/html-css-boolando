@@ -32,6 +32,21 @@ ol {
   width: calc(100% / 3);
 }
 
+/* HEADER */
+
+.main-header {
+  background-color: rgb(253, 105, 13);
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* MAIN */
+
 .prod-pic {
   position: relative;
 }
