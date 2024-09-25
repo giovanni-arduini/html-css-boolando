@@ -71,6 +71,10 @@ h1 {
   padding: 5px 10px;
 }
 
+.fav-icon:hover {
+  color: red;
+}
+
 .add-info {
   position: absolute;
   left: 0;
